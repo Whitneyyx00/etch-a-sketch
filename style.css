@@ -1,0 +1,19 @@
+#container {
+    display: grid;
+    grid-template-columns: repeat(var(--grid-size), 1fr);
+    grid-template-rows: repeat(var(--grid-size), 1fr);
+    gap: 1px;
+    width: 960px;
+    height: 960px;
+    border: 1px solid black;
+}
+
+.square {
+    background-color: white;
+    opacity: 0;
+}
+
+button {
+    display: block;
+    margin-top: 10px;
+}
